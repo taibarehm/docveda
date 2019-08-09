@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry exported="true" kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER/GWT 2.8.1"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/commons-fileupload-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/commons-io-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/gwt-material-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/gwt-material-addins-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/gwt-material-jquery-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/gwt-material-table-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/gwt-material-themes-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/user/Desktop/project/gwt/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
