@@ -1,0 +1,75 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.left_menu_title {
+   cursor: pointer;
+}
+	.panel{
+	background-color:url("");
+   background-size: 100%;
+   padding: 0px !important;
+   padding-top: 40% !important;
+ }
+ .fieldPanel{
+   background: white;
+   padding: 6%;
+ }
+ .imgProfile{
+   margin-top: 30px;
+   width: 40%;
+   margin-left: 30%;
+   border: 5px solid #fff;
+ }
+ .rowAction{
+  margin-top: 20px;
+ }
+ .login_demo{
+   padding: 4%;
+ }
+	}
+	</ui:style>
+	<g:HTMLPanel>
+  <m:MaterialRow backgroundColor="TRANSPARENT" addStyleNames="{style.login_demo}">
+    <m:MaterialColumn grid="s12 m8 l4" offset="l4" >
+    <m:MaterialPanel addStyleNames="{style.fieldPanel}">
+     <m:MaterialImage url="people.png" type="CIRCLE" addStyleNames="{style.imgProfile} z-depth-1"/>
+     <m:MaterialTextBox  label="Name" ui:field="nave"/>
+     <m:MaterialTextBox type="EMAIL" label="Email" ui:field="Email"/>
+     <m:MaterialTextBox label="Address" ui:field="Address"/>
+     <m:MaterialTextBox label="Event Name" ui:field="eventname"/>
+     <m:MaterialTextBox label="Date" ui:field="Date"/>
+      <m:MaterialIntegerBox label="mobile no." ui:field="mobile" length="10" />
+     <m:MaterialButton ui:field="Register" backgroundColor="GREEN" waves="LIGHT" text="REGISTER" width="100%"/>
+    </m:MaterialPanel>
+ 
+  </m:MaterialColumn>
+ </m:MaterialRow>
+ 
+ <!--  <m:MaterialRow backgroundColor="TRANSPARENT" addStyleNames="{style.login_demo}">
+    <m:MaterialColumn grid="s12 m8 l6" offset="l3" >
+ 
+ <m:MaterialRow>
+ <m:MaterialColumn grid="l6 m8 s12">
+ 
+ <m:MaterialCard backgroundColor="WHITE">
+ <m:MaterialCardContent textColor="WHITE" height="120px">
+ <m:MaterialImage layoutPosition="ABSOLUTE" marginTop="-32" url="http://lh3.googleusercontent.com/-mGTYed3Uh-E/AAAAAAAAAAI/AAAAAAAAHXA/GZnkarBLO-s/s24-p-rw-no/photo.jpg" circle="true" width="32px" height="32px" />
+ <m:MaterialTextBox  placeholder="Name" ui:field="nave"/>
+     <m:MaterialTextBox type="EMAIL" placeholder="Email" ui:field="Email"/>
+     <m:MaterialTextBox placeholder="Address" ui:field="Address"/>
+      <m:MaterialIntegerBox placeholder="mobile no." ui:field="mobile" length="10" />
+ </m:MaterialCardContent>
+ 
+ <m:MaterialCardAction>
+ <m:MaterialLink text="Register" fontSize="1.5em" fontWeight="BOLDER" textColor="WHITE"/>
+ </m:MaterialCardAction>
+ </m:MaterialCard>
+ </m:MaterialColumn>
+ </m:MaterialRow>
+   
+ </m:MaterialColumn>
+ </m:MaterialRow>-->
+	</g:HTMLPanel>
+</ui:UiBinder> 
