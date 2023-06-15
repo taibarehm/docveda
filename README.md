@@ -9,6 +9,6 @@ Feature
 
 ◉ Introducing SEARCH for easier access to information
 
-◉ Ayurvedic News Reader – Read Summaries of updated
+◉ Ayurvedic News Reader – Read Summaries of updated(used test summazization)
 
 ◉ My Feed – A feed of the latest stories and other content personalized only for you!
